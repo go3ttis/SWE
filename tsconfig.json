@@ -1,0 +1,30 @@
+{
+    "version": "1.9.0-dev.20160525-1.0",
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "lib": [
+            "es5",
+            "es2015",
+            "dom"
+        ],
+        "outDir": "dist",
+        "rootDir": "src"
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "tasks",
+        "config"
+    ]
+}
