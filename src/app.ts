@@ -27,12 +27,14 @@ import * as morgan from 'morgan';
 // tslint:disable-next-line:no-var-requires
 const responseTime: any = require('response-time');
 
+import filmeRouter from './videothek/router/index';
 import buecherRouter from './buchverwaltung/router/index';
 import verlageRouter from './verlagverwaltung/router/index';
 import loginRouter from './iam/router/index';
 import {logRequestHeader, responseTimeFn, notFound, internalError} from './shared/index';
 
 export const PATHS: any = {
+    filme: '/filme',
     buecher: '/buecher',
     verlage: '/verlage',
     login: '/login'
@@ -125,6 +127,7 @@ function initApp(): Express {
            compression())
 
         // Router sind eine "Mini-Anwendung" mit Express
+        .use(PATHS.filme, filmeRouter)
         .use(PATHS.buecher, buecherRouter)
         .use(PATHS.verlage, verlageRouter)
         .use(PATHS.login, loginRouter);

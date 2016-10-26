@@ -32,7 +32,7 @@ export class BuecherService {
     //          die das Resultat liefert, noch nicht abgeschlossen ist
     // Fulfilled: die asynchrone Operation ist abgeschlossen und
     //            das Promise-Objekt hat einen Wert
-    // Rejected: die asynchrone Operation ist fehlgeschlagen and das
+    // Rejected: die asynchrone Operation ist fehlgeschlagen und das
     //           Promise-Objekt wird nicht den Status "fulfilled" erreichen.
     //           Stattdessen ist im Promise-Objekt die Fehlerursache enthalten.
 

@@ -22,9 +22,10 @@ import {join} from 'path';
 
 export const mongo = (done) => {
     'use strict';
-    const configPath = join('C:', 'Zimmermann', 'mongodb', 'config.yml');
+    const configPath = join('C:', 'Zimmermann', 'mongodb', 'config.yml'); //yml = gesprochen Yamel, = Config-Datei, wie Property- oder Ini-Dateien
 
     // Default Port: 27017
-    exec(`mongod --config ${configPath}`);
+    exec(`mongod --config ${configPath}`); //TemplateString, MultilineString
+    // Aus den zwei Zeilen darüber lässt sich auch einfach eine Bat-Datei schreiben, so muss nicht extra gulp gestartet werden.
     done();
 };

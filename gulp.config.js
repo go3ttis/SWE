@@ -28,7 +28,8 @@ export const dateien = {
     iamJson: `${srcDir}/iam/service/json/*.json`,
     jwtPem: `${srcDir}/iam/service/jwt/*.pem`,
     mongoimport: [
-        `buecher`
+        `buecher`, 
+        `filme`
     ],
     mongoExpress: `${configDir}/mongo-express/*`,
     nodemon: `${configDir}/nodemon/*`

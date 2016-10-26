@@ -24,6 +24,10 @@ export const SERVER_CONFIG: any = {
 
     // https://nodejs.org/api/https.html
     // https://nodejs.org/api/fs.html
-    key: readFileSync(join(__dirname, 'key.pem')),
-    cert: readFileSync(join(__dirname, 'cert.cer'))
+    // key: readFileSync(join(__dirname, 'key.pem')),
+    // cert: readFileSync(join(__dirname, 'cert.cer'))
+    key: readFileSync(
+        join(__dirname, '..', '..', '..', 'config', 'https', 'key.pem')),
+    cert: readFileSync(
+        join(__dirname, '..', '..', '..', 'config', 'https', 'cert.cer'))
 };
