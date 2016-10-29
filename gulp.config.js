@@ -29,7 +29,8 @@ export const dateien = {
     jwtPem: `${srcDir}/iam/service/jwt/*.pem`,
     mongoimport: [
         `buecher`, 
-        `filme`
+        `filme`,
+        `kunden`
     ],
     mongoExpress: `${configDir}/mongo-express/*`,
     nodemon: `${configDir}/nodemon/*`

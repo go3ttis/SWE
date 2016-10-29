@@ -1,0 +1,68 @@
+{
+   "_id": ObjectId("000000000000000000000001"),
+   "name": "Hinz",
+   "vorname": "Fabian",
+   "geburtstag": ISODate("1994-03-28T00:00:00.000Z"),
+   "premium": false,
+   "adresse": [
+       {
+           "Straße": "Wiggenhauser Weg",
+           "Hausnummer": "36",
+           "Postleitzahl": "88046",
+           "Stadt": "Friedrichshafen"
+       }
+    ],
+    "telefonnummer": "+4917645824076",
+    "__v": 0
+}
+{
+   "_id": ObjectId("000000000000000000000002"),
+   "name": "Müller",
+   "vorname": "Robert",
+   "geburtstag": ISODate("1995-12-22T00:00:00.000Z"),
+   "premium": true,
+   "adresse": [
+       {
+           "Straße": "Lindenplatz",
+           "Hausnummer": "11",
+           "Postleitzahl": "76185",
+           "Stadt": "Karlsruhe"
+       }
+    ],
+    "telefonnummer": "+4915253945571",
+    "__v": 0
+}
+{
+   "_id": ObjectId("000000000000000000000003"),
+   "name": "Knecht",
+   "vorname": "Sarah",
+   "geburtstag": ISODate("1990-12-28T00:00:00.000Z"),
+   "premium": false,
+   "adresse": [
+       {
+           "Straße": "Sonnenstraße",
+           "Hausnummer": "12",
+           "Postleitzahl": "66519",
+           "Stadt": "Eureka"
+       }
+    ],
+    "telefonnummer": "+6115428693",
+    "__v": 0
+}
+{
+   "_id": ObjectId("000000000000000000000004"),
+   "name": "Müller",
+   "vorname": "Petra",
+   "geburtstag": ISODate("1999-02-03T00:00:00.000Z"),
+   "premium": false,
+   "adresse": [
+       {
+           "Straße": "Merkurstraße",
+           "Hausnummer": "2",
+           "Postleitzahl": "12345",
+           "Stadt": "Genesis"
+       }
+    ],
+    "telefonnummer": "+10153412432",
+    "__v": 0
+}
