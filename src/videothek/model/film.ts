@@ -25,7 +25,7 @@ const filmSchema: Schema = new Schema(
       genre: String,
       laenge: Number,
       sprache: String,
-      medium: String,
+      medium: {type: String, index: true},
       preis: {type: Number, required: true},
       ausgeliehen: Boolean,
       erscheinungsdatum: Date,

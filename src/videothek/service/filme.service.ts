@@ -28,6 +28,7 @@ export class FilmeService {
 
     @log
     async find(query?: any): Promise<Array<MDocument>> {
+        // alle Buecher asynchron suchen u. aufsteigend nach titel sortieren
         if (isBlank(query) || Object.keys(query).length === 0) {
             const tmpQuery: Query<Array<MDocument>> = Film.find();
             return Promise.resolve(tmpQuery.sort('titel'));
@@ -36,14 +37,28 @@ export class FilmeService {
         let titelQuery: any = undefined;
         const titel: string = query.titel;
         if (!isEmpty(titel)) {
+            // Titel in der Query: Teilstring des Titels,
+            // d.h. "LIKE" als regulaerer Ausdruck
+            // 'i': keine Unterscheidung zw. Gross- u. Kleinschreibung
             delete query.titel;
             titelQuery = {titel: new RegExp(titel, 'i')};
+        }
+
+        let mediumQuery: any = undefined;
+        const medium: string = query.medium;
+        if (!isEmpty(medium)) {
+            delete query.medium;
+            mediumQuery = {medium: medium};
         }
 
         // clang-format off
         if (titelQuery !== undefined) {
             const tmpQuery: Query<Array<MDocument>> = Film.find();
             return tmpQuery.and([query, titelQuery]);
+        }
+        if (mediumQuery !== undefined) {
+            const tmpQuery: Query<Array<MDocument>> = Film.find();
+            return tmpQuery.and([query, mediumQuery]);
         }
         // clang-format on
 
