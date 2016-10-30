@@ -27,12 +27,12 @@ export function validateKunde(kunde: any): any {
         err.id = 'Der Kunde hat eine ungueltige ID';
     }
     if (isEmpty(kunde.name || kunde.vorname)) {
-        err.titel = 'Ein Kunde muss einen Vornamen und Nachnamen haben';
+        err.name = 'Ein Kunde muss einen Vornamen und Nachnamen haben';
     } else if (!kunde.titel.match(/^\w.*/)) {
-        err.titel = 'Ein (Vor)-Name muss mit einem Buchstaben beginnen';
+        err.name = 'Ein (Vor)-Name muss mit einem Buchstaben beginnen';
     }
     if (isEmpty(kunde.adresse)) {
-        err.medium = 'Der Kunde muss eine Adresse haben';
+        err.adresse = 'Der Kunde muss eine Adresse haben';
     }
 
     return Object.keys(err).length !== 0 ? err : undefined;

@@ -20,13 +20,7 @@ export const server: any = app.listen(port, host, () => {
 const idGetVorhanden: string = '000000000000000000000001';
 const idNichtVorhanden: string = '000000000000000000000999';
 
-const neuerKunde: any = {
-    name: 'nameNeu',
-    vorname: 'vornameNeu',
-    geburtstag: 'xx.xx.xxxx',
-    premium: true,
-    telefonnummer: 1234567
-};
+// ToDo neuer Kunde
 
 const idDeleteVorhanden: string = '000000000000000000000005';
 
@@ -95,23 +89,7 @@ describe('kundenverwaltung', function(): void {
             .end(done);
     });
 
-    it('Neuer Kunde', (done: MochaDone): void => {
-        supertest(server)
-            .post(`${path}`)
-            .set('Authorization', `Bearer ${token}`)
-            .send(neuerKunde)
-            .expect(201)
-            .end((err: any, response: any) => {
-                const location: string = response.header.location;
-                location.should.be.not.empty;
-
-                // Mongo-ID hat 24 Ziffern
-                const indexLastSlash: number = location.lastIndexOf('/');
-                const idStr: string = location.substring(indexLastSlash + 1);
-                idStr.should.match(/[0-9a-f]{24}/);
-                done();
-            });
-    });
+    // ToDo neuer Kunde
 
     it('Vorhandener Kunde loeschen', (done: MochaDone): void => {
         supertest(server)
