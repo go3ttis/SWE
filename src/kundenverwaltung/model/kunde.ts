@@ -1,5 +1,5 @@
 import {Document as MDocument, Model, model, Schema} from 'mongoose';
-import {DB_CONFIG, isEmpty, isMongoId} from '../../shared/index';
+import {DB_CONFIG, isEmpty, isMongoId, logger} from '../../shared/index';
 
 const kundeSchema: Schema = new Schema(
     {
@@ -25,14 +25,15 @@ export function validateKunde(kunde: any): any {
 
     if (!kunde.isNew && !isMongoId(kunde._id)) {
         err.id = 'Der Kunde hat eine ungueltige ID';
+        logger.debug('Kunde hat ungueltige ID');
     }
     if (isEmpty(kunde.name || kunde.vorname)) {
         err.name = 'Ein Kunde muss einen Vornamen und Nachnamen haben';
-    } else if (!kunde.titel.match(/^\w.*/)) {
-        err.name = 'Ein (Vor)-Name muss mit einem Buchstaben beginnen';
+        logger.debug('Kunde muss Namen, Vornamen haben');
     }
     if (isEmpty(kunde.adresse)) {
         err.adresse = 'Der Kunde muss eine Adresse haben';
+        logger.debug('Kunde muss eine Adress haben');
     }
 
     return Object.keys(err).length !== 0 ? err : undefined;
