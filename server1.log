@@ -1,0 +1,669 @@
+2016-10-30T15:44:18.228Z - debug: Response time: 11.398011 ms
+2016-10-30T15:44:18.235Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-30T15:44:18.235Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "connection": "close"
+}
+2016-10-30T15:44:18.235Z - debug: Request: protocol="http"
+2016-10-30T15:44:18.235Z - debug: Request: hostname="127.0.0.1"
+2016-10-30T15:44:18.237Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-30T15:44:18.237Z - debug: id = 000000000000000000000999
+2016-10-30T15:44:18.237Z - debug: > FilmeRequestHandler.getById(): args = <RequestResponse>
+2016-10-30T15:44:18.237Z - debug: > FilmeService.findById(): args = ["000000000000000000000999"]
+2016-10-30T15:44:18.237Z - debug: < FilmeService.findById(): result = {}
+2016-10-30T15:44:18.237Z - debug: < FilmeRequestHandler.getById(): result = {}
+2016-10-30T15:44:18.237Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-30T15:44:18.237Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-30T15:44:18.242Z - debug: status = 404
+2016-10-30T15:44:18.243Z - debug: Response time: 7.908951999999999 ms
+2016-10-30T15:44:18.251Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-30T15:44:18.252Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc4NDIyNTgsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiZjViM2IzMzQtYzgyOC00NWEyLTlhNjctODIxOTYzMmY5ZmRlIiwiZXhwIjoxNDc3OTI4NjU4fQ.e3yRzvRxcPyru9b_bN7kmFcqFX1oaQC3qmyncRKUYxSLd2Ll2ChWSzpoErfT3TtCjpbKWWXRVSgSxHaGtpXWXc2UkIUmwxiylfCRFzQ0PLfCSMo-nxfty7vGxbgD2k67d95qVVvRdxzEfSCfKBgs4Bg_2K5NuVvZHHO7RoRSgQFMgbJ3GIh7TUIWRT-9uvKHTgwV2cifpshj7tbh_4yL9GyAD2f8YRdmCwhqH8LgzFO0Ge9F8UJmSbXf5PCjlEquzvdKrCRGDRME31iKkE5UhvX4YDx5O9YvPzmGBm8P5todGPF_BWsa29JXQxyUbJj1c4wsEq1ZNzFHkY1Vo_UcHg",
+  "content-type": "application/json",
+  "content-length": "123",
+  "connection": "close"
+}
+2016-10-30T15:44:18.252Z - debug: Request: protocol="http"
+2016-10-30T15:44:18.252Z - debug: Request: hostname="127.0.0.1"
+2016-10-30T15:44:18.254Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.254Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.255Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc4NDIyNTgsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiZjViM2IzMzQtYzgyOC00NWEyLTlhNjctODIxOTYzMmY5ZmRlIiwiZXhwIjoxNDc3OTI4NjU4fQ.e3yRzvRxcPyru9b_bN7kmFcqFX1oaQC3qmyncRKUYxSLd2Ll2ChWSzpoErfT3TtCjpbKWWXRVSgSxHaGtpXWXc2UkIUmwxiylfCRFzQ0PLfCSMo-nxfty7vGxbgD2k67d95qVVvRdxzEfSCfKBgs4Bg_2K5NuVvZHHO7RoRSgQFMgbJ3GIh7TUIWRT-9uvKHTgwV2cifpshj7tbh_4yL9GyAD2f8YRdmCwhqH8LgzFO0Ge9F8UJmSbXf5PCjlEquzvdKrCRGDRME31iKkE5UhvX4YDx5O9YvPzmGBm8P5todGPF_BWsa29JXQxyUbJj1c4wsEq1ZNzFHkY1Vo_UcHg
+2016-10-30T15:44:18.257Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-30T15:44:18.258Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-30T15:44:18.259Z - debug: id: 200000000000000000000001
+2016-10-30T15:44:18.259Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.259Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-30T15:44:18.259Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-30T15:44:18.259Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-30T15:44:18.259Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-30T15:44:18.259Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-30T15:44:18.260Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-30T15:44:18.260Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-30T15:44:18.260Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-30T15:44:18.260Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-30T15:44:18.260Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-30T15:44:18.260Z - debug: > RolesService.findAllRoles()
+2016-10-30T15:44:18.260Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-30T15:44:18.260Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-30T15:44:18.261Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-30T15:44:18.261Z - debug: > RolesService.findAllRoles()
+2016-10-30T15:44:18.261Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-30T15:44:18.261Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-30T15:44:18.261Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-30T15:44:18.261Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-30T15:44:18.262Z - debug: Vorhandene Rolle: admin
+2016-10-30T15:44:18.262Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-30T15:44:18.262Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-30T15:44:18.262Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-30T15:44:18.262Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-30T15:44:18.263Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-30T15:44:18.263Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.263Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-30T15:44:18.263Z - debug: > FilmeRequestHandler.post(): args = <RequestResponse>
+2016-10-30T15:44:18.268Z - debug: Body: {"titel":"Neu","rating":1,"genre":"Drama","laenge":118,"sprache":"Deutsch","medium":"DVD","preis":0.99,"ausgeliehen":false,"_id":"58161552be13180e38d634ac","schauspieler":[]}
+2016-10-30T15:44:18.268Z - debug: > FilmeService.save(): args = [{"titel":"Neu","rating":1,"genre":"Drama","laenge":118,"sprache":"Deutsch","medium":"DVD","preis":0.99,"ausgeliehen":false,"_id":"58161552be13180e38d634ac","schauspieler":[]}]
+2016-10-30T15:44:18.269Z - debug: < FilmeService.save(): result = {}
+2016-10-30T15:44:18.269Z - debug: < FilmeRequestHandler.post(): result = {}
+2016-10-30T15:44:18.288Z - debug: post(): location = http://127.0.0.1:8443/filme/58161552be13180e38d634ac
+2016-10-30T15:44:18.288Z - debug: Response time: 36.954848999999996 ms
+2016-10-30T15:44:18.295Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-30T15:44:18.295Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc4NDIyNTgsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiZjViM2IzMzQtYzgyOC00NWEyLTlhNjctODIxOTYzMmY5ZmRlIiwiZXhwIjoxNDc3OTI4NjU4fQ.e3yRzvRxcPyru9b_bN7kmFcqFX1oaQC3qmyncRKUYxSLd2Ll2ChWSzpoErfT3TtCjpbKWWXRVSgSxHaGtpXWXc2UkIUmwxiylfCRFzQ0PLfCSMo-nxfty7vGxbgD2k67d95qVVvRdxzEfSCfKBgs4Bg_2K5NuVvZHHO7RoRSgQFMgbJ3GIh7TUIWRT-9uvKHTgwV2cifpshj7tbh_4yL9GyAD2f8YRdmCwhqH8LgzFO0Ge9F8UJmSbXf5PCjlEquzvdKrCRGDRME31iKkE5UhvX4YDx5O9YvPzmGBm8P5todGPF_BWsa29JXQxyUbJj1c4wsEq1ZNzFHkY1Vo_UcHg",
+  "connection": "close"
+}
+2016-10-30T15:44:18.295Z - debug: Request: protocol="http"
+2016-10-30T15:44:18.295Z - debug: Request: hostname="127.0.0.1"
+2016-10-30T15:44:18.297Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-30T15:44:18.297Z - debug: id = 000000000000000000000005
+2016-10-30T15:44:18.297Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.297Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.297Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc4NDIyNTgsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiZjViM2IzMzQtYzgyOC00NWEyLTlhNjctODIxOTYzMmY5ZmRlIiwiZXhwIjoxNDc3OTI4NjU4fQ.e3yRzvRxcPyru9b_bN7kmFcqFX1oaQC3qmyncRKUYxSLd2Ll2ChWSzpoErfT3TtCjpbKWWXRVSgSxHaGtpXWXc2UkIUmwxiylfCRFzQ0PLfCSMo-nxfty7vGxbgD2k67d95qVVvRdxzEfSCfKBgs4Bg_2K5NuVvZHHO7RoRSgQFMgbJ3GIh7TUIWRT-9uvKHTgwV2cifpshj7tbh_4yL9GyAD2f8YRdmCwhqH8LgzFO0Ge9F8UJmSbXf5PCjlEquzvdKrCRGDRME31iKkE5UhvX4YDx5O9YvPzmGBm8P5todGPF_BWsa29JXQxyUbJj1c4wsEq1ZNzFHkY1Vo_UcHg
+2016-10-30T15:44:18.298Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-30T15:44:18.298Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-30T15:44:18.298Z - debug: id: 200000000000000000000001
+2016-10-30T15:44:18.298Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.298Z - debug: > IamRequestHandler.isAdmin(): args = <RequestResponse>
+2016-10-30T15:44:18.298Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-30T15:44:18.298Z - debug: Rollen = ["admin"]
+2016-10-30T15:44:18.299Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-30T15:44:18.299Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-30T15:44:18.299Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-30T15:44:18.299Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-30T15:44:18.299Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-30T15:44:18.299Z - debug: > RolesService.getNormalizedRoles(): args = [["admin"]]
+2016-10-30T15:44:18.300Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-30T15:44:18.300Z - debug: > RolesService.findAllRoles()
+2016-10-30T15:44:18.300Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-30T15:44:18.301Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-30T15:44:18.301Z - debug: < RolesService.getNormalizedRoles(): result = ["admin"]
+2016-10-30T15:44:18.301Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin"]]
+2016-10-30T15:44:18.301Z - debug: Vorhandene Rolle: admin
+2016-10-30T15:44:18.301Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-30T15:44:18.301Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-30T15:44:18.301Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-30T15:44:18.301Z - debug: > FilmeRequestHandler.deleteMeth(): args = <RequestResponse>
+2016-10-30T15:44:18.301Z - debug: id = 000000000000000000000005
+2016-10-30T15:44:18.302Z - debug: > FilmeService.remove(): args = ["000000000000000000000005"]
+2016-10-30T15:44:18.303Z - debug: < FilmeService.remove(): result = {}
+2016-10-30T15:44:18.303Z - debug: < FilmeRequestHandler.deleteMeth(): result = {}
+2016-10-30T15:44:18.303Z - debug: < IamRequestHandler.isAdmin(): result = void || undefined
+2016-10-30T15:44:18.303Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.303Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-30T15:44:18.303Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-30T15:44:18.305Z - debug: Response time: 10.675568 ms
+2016-10-30T15:44:18.309Z - debug: Geloescht: {"_id":"000000000000000000000005","titel":"Der Soldat James Ryan","rating":5,"genre":"Drama","laenge":170,"sprache":"Englisch","medium":"DVD","preis":1.79,"ausgeliehen":true,"erscheinungsdatum":"1998-10-08T00:00:00.000Z","__v":0,"schauspieler":[{"vorname":"Tom","nachname":"Hanks"},{"vorname":"Matt","nachname":"Damon"},{"vorname":"Tom","nachname":"Sizemore"}]}
+2016-10-30T15:44:18.313Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-30T15:44:18.314Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "connection": "close"
+}
+2016-10-30T15:44:18.314Z - debug: Request: protocol="http"
+2016-10-30T15:44:18.314Z - debug: Request: hostname="127.0.0.1"
+2016-10-30T15:44:18.315Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-30T15:44:18.315Z - debug: id = 000000000000000000000005
+2016-10-30T15:44:18.315Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.315Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.315Z - debug: Kein Header-Field Authorization
+2016-10-30T15:44:18.315Z - debug: AuthorizationInvalidError.constructor()
+2016-10-30T15:44:18.315Z - debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization
+2016-10-30T15:44:18.316Z - debug: Response time: 2.257023 ms
+2016-10-30T15:44:18.316Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.316Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-30T15:44:18.316Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-30T15:44:18.320Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-30T15:44:18.320Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer x",
+  "connection": "close"
+}
+2016-10-30T15:44:18.320Z - debug: Request: protocol="http"
+2016-10-30T15:44:18.320Z - debug: Request: hostname="127.0.0.1"
+2016-10-30T15:44:18.322Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-30T15:44:18.322Z - debug: id = 000000000000000000000005
+2016-10-30T15:44:18.322Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.322Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-30T15:44:18.322Z - debug: Authorization = Bearer x
+2016-10-30T15:44:18.322Z - debug: Der Token besteht nicht aus 3 Teilen.
+2016-10-30T15:44:18.323Z - debug: TokenInvalidError.constructor()
+2016-10-30T15:44:18.323Z - debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen.
+2016-10-30T15:44:18.323Z - debug: Response time: 3.479243 ms
+2016-10-30T15:44:18.323Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-30T15:44:18.324Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-30T15:44:18.324Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.433Z - debug: Response time: 6.298514 ms
+2016-10-31T09:32:52.438Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.438Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "connection": "close"
+}
+2016-10-31T09:32:52.438Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.438Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.440Z - debug: > BuecherRequestHandler.getByQuery(): args = <RequestResponse>
+2016-10-31T09:32:52.441Z - debug: queryParams = {"csharp":"true"}
+2016-10-31T09:32:52.441Z - debug: > BuecherService.find(): args = [{"csharp":"true"}]
+2016-10-31T09:32:52.442Z - debug: < BuecherService.find(): result = {}
+2016-10-31T09:32:52.442Z - debug: < BuecherRequestHandler.getByQuery(): result = {}
+2016-10-31T09:32:52.442Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.444Z - debug: getByQuery(): buecher = []
+2016-10-31T09:32:52.444Z - debug: status = 404
+2016-10-31T09:32:52.444Z - debug: Response time: 5.860316999999999 ms
+2016-10-31T09:32:52.455Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.455Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "265",
+  "connection": "close"
+}
+2016-10-31T09:32:52.456Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.456Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.457Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.457Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.457Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.460Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.460Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.460Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.460Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.460Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.460Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.460Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.460Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.461Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.461Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.461Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.461Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.462Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.462Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.462Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.462Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.462Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.462Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.462Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.462Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.462Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.462Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.463Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.463Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.463Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.463Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.463Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.463Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.464Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.464Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.464Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.466Z - debug: > BuecherRequestHandler.post(): args = <RequestResponse>
+2016-10-31T09:32:52.473Z - debug: Body: {"titel":"Neu","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.9,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","_id":"58170fc417eaa11cccdd9679","autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.474Z - debug: > BuecherService.save(): args = [{"titel":"Neu","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.9,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","_id":"58170fc417eaa11cccdd9679","autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}]
+2016-10-31T09:32:52.475Z - debug: < BuecherService.save(): result = {}
+2016-10-31T09:32:52.475Z - debug: < BuecherRequestHandler.post(): result = {}
+2016-10-31T09:32:52.495Z - debug: sendMail(): {"from":"\"Joe Doe\" <nnvv0011@hs-karlsruhe.de>","to":"joe@doe.mail","subject":"Neues Buch 58170fc417eaa11cccdd9679","html":"Das Buch mit dem Titel <strong>Neu</strong> ist angelegt"}
+2016-10-31T09:32:52.505Z - debug: post(): location = http://127.0.0.1:8443/buecher/58170fc417eaa11cccdd9679
+2016-10-31T09:32:52.506Z - debug: Response time: 50.340360999999994 ms
+2016-10-31T09:32:52.513Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.514Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "232",
+  "connection": "close"
+}
+2016-10-31T09:32:52.514Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.514Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.515Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.515Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.515Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.516Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.516Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.516Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.516Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.516Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.516Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.516Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.516Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.517Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.517Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.517Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.517Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.517Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.517Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.517Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.517Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.517Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.517Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.517Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.517Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.517Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.517Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.517Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.517Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.518Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.518Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.518Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.518Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.518Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.518Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.518Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.518Z - debug: > BuecherRequestHandler.post(): args = <RequestResponse>
+2016-10-31T09:32:52.520Z - debug: Body: {"titel":"Blabla","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","_id":"58170fc417eaa11cccdd967a","autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.520Z - debug: status = 400
+2016-10-31T09:32:52.520Z - debug: Response time: 6.983473999999999 ms
+2016-10-31T09:32:52.521Z - debug: < BuecherRequestHandler.post(): result = {}
+2016-10-31T09:32:52.529Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.529Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "267",
+  "connection": "close"
+}
+2016-10-31T09:32:52.529Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.529Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.531Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.532Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.532Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.533Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.533Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.533Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.535Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.535Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.535Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.535Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.535Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.535Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.535Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.535Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.535Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.535Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.535Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.536Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.536Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.536Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.536Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.536Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.536Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.536Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.536Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.536Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.536Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.536Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.536Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.536Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.537Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.538Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.538Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.538Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.538Z - debug: > BuecherRequestHandler.post(): args = <RequestResponse>
+2016-10-31T09:32:52.539Z - debug: Body: {"titel":"Alpha","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.9,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","_id":"58170fc417eaa11cccdd967b","autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.539Z - debug: > BuecherService.save(): args = [{"titel":"Alpha","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":99.9,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z","email":"theo@test.de","_id":"58170fc417eaa11cccdd967b","autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}]
+2016-10-31T09:32:52.539Z - debug: < BuecherService.save(): result = {}
+2016-10-31T09:32:52.539Z - debug: < BuecherRequestHandler.post(): result = {}
+2016-10-31T09:32:52.541Z - debug: TitelExistsError.constructor(): Der Titel "Alpha" existiert bereits.
+2016-10-31T09:32:52.543Z - debug: Response time: 14.397112 ms
+2016-10-31T09:32:52.547Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.547Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "content-type": "application/json",
+  "content-length": "265",
+  "connection": "close"
+}
+2016-10-31T09:32:52.547Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.547Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.549Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.549Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.549Z - debug: Kein Header-Field Authorization
+2016-10-31T09:32:52.550Z - debug: AuthorizationInvalidError.constructor()
+2016-10-31T09:32:52.550Z - debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization
+2016-10-31T09:32:52.550Z - debug: Response time: 2.916994 ms
+2016-10-31T09:32:52.551Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.554Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.560Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.560Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer x",
+  "content-type": "application/json",
+  "content-length": "265",
+  "connection": "close"
+}
+2016-10-31T09:32:52.561Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.561Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.562Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.563Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.563Z - debug: Authorization = Bearer x
+2016-10-31T09:32:52.563Z - debug: Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.563Z - debug: TokenInvalidError.constructor()
+2016-10-31T09:32:52.563Z - debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.563Z - debug: Response time: 3.573397 ms
+2016-10-31T09:32:52.564Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.564Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.569Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.570Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "291",
+  "connection": "close"
+}
+2016-10-31T09:32:52.570Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.570Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.570Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.571Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.571Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.571Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.571Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.571Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.572Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.572Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.572Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.572Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.572Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.572Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.572Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.572Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.572Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.573Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.573Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.573Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.573Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.573Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.573Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.573Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.573Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.573Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.573Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.573Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.573Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.573Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.573Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.573Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.573Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.574Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.574Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.574Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.574Z - debug: > BuecherRequestHandler.put(): args = <RequestResponse>
+2016-10-31T09:32:52.576Z - debug: Body: {"_id":"000000000000000000000003","titel":"Geaendert","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","__v":0,"autoren":[{"vorname":"Claus","nachname":"Gamma"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.576Z - debug: > BuecherService.update(): args = [{"_id":"000000000000000000000003","titel":"Geaendert","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","__v":0,"autoren":[{"vorname":"Claus","nachname":"Gamma"}],"schlagwoerter":[]}]
+2016-10-31T09:32:52.576Z - debug: < BuecherService.update(): result = {}
+2016-10-31T09:32:52.577Z - debug: < BuecherRequestHandler.put(): result = {}
+2016-10-31T09:32:52.588Z - debug: Response time: 18.812542 ms
+2016-10-31T09:32:52.592Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.593Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "296",
+  "connection": "close"
+}
+2016-10-31T09:32:52.593Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.593Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.594Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.594Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.594Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.595Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.595Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.595Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.595Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.595Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.595Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.595Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.596Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.596Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.596Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.596Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.596Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.596Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.596Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.596Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.596Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.596Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.596Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.596Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.596Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.597Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.597Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.597Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.597Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.597Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.597Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.597Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.597Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.598Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.598Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.598Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.598Z - debug: > BuecherRequestHandler.put(): args = <RequestResponse>
+2016-10-31T09:32:52.600Z - debug: Body: {"_id":"000000000000000000000999","titel":"Nichtvorhanden","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","__v":0,"autoren":[{"vorname":"Claus","nachname":"Gamma"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.600Z - debug: > BuecherService.update(): args = [{"_id":"000000000000000000000999","titel":"Nichtvorhanden","rating":1,"art":"DRUCKAUSGABE","verlag":"HSKA_VERLAG","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","__v":0,"autoren":[{"vorname":"Claus","nachname":"Gamma"}],"schlagwoerter":[]}]
+2016-10-31T09:32:52.601Z - debug: < BuecherService.update(): result = {}
+2016-10-31T09:32:52.601Z - debug: < BuecherRequestHandler.put(): result = {}
+2016-10-31T09:32:52.605Z - debug: IdNotExistsError.constructor(): Es gibt kein Buch mit der ID "000000000000000000000999"
+2016-10-31T09:32:52.605Z - debug: status = 400, message: Es gibt kein Buch mit der ID "000000000000000000000999"
+2016-10-31T09:32:52.605Z - debug: Response time: 13.036116 ms
+2016-10-31T09:32:52.611Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.611Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "content-type": "application/json",
+  "content-length": "272",
+  "connection": "close"
+}
+2016-10-31T09:32:52.611Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.611Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.612Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.612Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.613Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.613Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.613Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.613Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.613Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.613Z - debug: > IamRequestHandler.isAdminMitarbeiter(): args = <RequestResponse>
+2016-10-31T09:32:52.613Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.613Z - debug: Rollen = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.613Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.613Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.614Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.614Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.614Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.614Z - debug: > RolesService.getNormalizedRoles(): args = [["admin","mitarbeiter"]]
+2016-10-31T09:32:52.614Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.614Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.614Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.614Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.614Z - debug: > RolesService.getNormalizedRole(): args = ["mitarbeiter"]
+2016-10-31T09:32:52.614Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.616Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.617Z - debug: < RolesService.getNormalizedRole(): result = "mitarbeiter"
+2016-10-31T09:32:52.617Z - debug: < RolesService.getNormalizedRoles(): result = ["admin","mitarbeiter"]
+2016-10-31T09:32:52.617Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin","mitarbeiter"]]
+2016-10-31T09:32:52.617Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.619Z - debug: Vorhandene Rolle: mitarbeiter
+2016-10-31T09:32:52.619Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.619Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.619Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.619Z - debug: < IamRequestHandler.isAdminMitarbeiter(): result = void || undefined
+2016-10-31T09:32:52.619Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.620Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.620Z - debug: > BuecherRequestHandler.put(): args = <RequestResponse>
+2016-10-31T09:32:52.623Z - debug: Body: {"_id":"000000000000000000000003","titel":"Alpha","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z","email":"fromNowhere","__v":0,"autoren":[{"vorname":"Theo","nachname":"Test"}],"schlagwoerter":[]}
+2016-10-31T09:32:52.623Z - debug: status = 400, err: {"art":"Die Art eines Buches muss KINDLE oder DRUCKAUSGABE sein","rating":"-1 ist keine gueltige Bewertung","verlag":"Der Verlag eines Buches muss IWI_VERLAG oder HSKA_VERLAG sein","email":"fromNowhere ist keine gueltige Email-Adresse"}
+2016-10-31T09:32:52.623Z - debug: Response time: 12.634063999999999 ms
+2016-10-31T09:32:52.624Z - debug: < BuecherRequestHandler.put(): result = {}
+2016-10-31T09:32:52.628Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.628Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "content-type": "application/json",
+  "content-length": "291",
+  "connection": "close"
+}
+2016-10-31T09:32:52.628Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.628Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.629Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.629Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.629Z - debug: Kein Header-Field Authorization
+2016-10-31T09:32:52.630Z - debug: AuthorizationInvalidError.constructor()
+2016-10-31T09:32:52.630Z - debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization
+2016-10-31T09:32:52.630Z - debug: Response time: 1.908073 ms
+2016-10-31T09:32:52.630Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.631Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.635Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.635Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer x",
+  "content-type": "application/json",
+  "content-length": "291",
+  "connection": "close"
+}
+2016-10-31T09:32:52.635Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.635Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.636Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.643Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.643Z - debug: Authorization = Bearer x
+2016-10-31T09:32:52.643Z - debug: Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.643Z - debug: TokenInvalidError.constructor()
+2016-10-31T09:32:52.643Z - debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.643Z - debug: Response time: 8.295385 ms
+2016-10-31T09:32:52.644Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.644Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.648Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.648Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg",
+  "connection": "close"
+}
+2016-10-31T09:32:52.648Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.648Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.649Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-31T09:32:52.649Z - debug: id = 000000000000000000000005
+2016-10-31T09:32:52.649Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.649Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.649Z - debug: Authorization = Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE0Nzc5MDYzNzIsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxIiwianRpIjoiYWQzNjUyMDktMTM4MC00NDRiLWI1ZWUtYmFiZGE4MGNjNjdiIiwiZXhwIjoxNDc3OTkyNzcyfQ.GJH8lZmkpGnaHKFgL0XCG78BqPZ_z19rFGR7XF-222zuSVCoV4lcU0OXIelOnGl4y9oeJLeNMkBb-h-rAHmIqnA6wMhT5_u03BzWU-NpP_0r31IIQqM4UQqeAog9i8_Rh48DHGxuJownnIaFumevmG1ASg4GrFjB356mtIxqN3BPGcSAXRhETGJD50kT7WjQIbnwJzEwLqLXs1M6bpvSwYfc_ZY4ubDP6Kqamnr0tWc5JTuitILNQs_iidnLFslmQzND1XE3W5SpZMxcDnH6YOpcC9co3Y32MAfU6h89MJl7tBemq9kpCiNU7mxZq45YssIt2ovurdcnVYsq-W0MXg
+2016-10-31T09:32:52.650Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.650Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.650Z - debug: id: 200000000000000000000001
+2016-10-31T09:32:52.650Z - debug: < IamService.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.650Z - debug: > IamRequestHandler.isAdmin(): args = <RequestResponse>
+2016-10-31T09:32:52.650Z - debug: > IamRequestHandler.hasRolle(): args = <RequestResponse>
+2016-10-31T09:32:52.650Z - debug: Rollen = ["admin"]
+2016-10-31T09:32:52.650Z - debug: > IamService.isLoggedIn(): args = <RequestResponse>
+2016-10-31T09:32:52.650Z - debug: < IamService.isLoggedIn(): result = true
+2016-10-31T09:32:52.650Z - debug: > IamService.hasAnyRole(): args = <RequestResponse>
+2016-10-31T09:32:52.650Z - debug: > UsersService.findById(): args = ["200000000000000000000001"]
+2016-10-31T09:32:52.651Z - debug: < UsersService.findById(): result = {"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]}
+2016-10-31T09:32:52.651Z - debug: > RolesService.getNormalizedRoles(): args = [["admin"]]
+2016-10-31T09:32:52.651Z - debug: > RolesService.getNormalizedRole(): args = ["admin"]
+2016-10-31T09:32:52.651Z - debug: > RolesService.findAllRoles()
+2016-10-31T09:32:52.651Z - debug: < RolesService.findAllRoles(): result = ["admin","mitarbeiter","abteilungsleiter","kunde"]
+2016-10-31T09:32:52.651Z - debug: < RolesService.getNormalizedRole(): result = "admin"
+2016-10-31T09:32:52.651Z - debug: < RolesService.getNormalizedRoles(): result = ["admin"]
+2016-10-31T09:32:52.651Z - debug: > IamService.userHasAnyRole(): args = [{"_id":"200000000000000000000001","username":"admin","password":"$2a$12$50nIBzoTSmFEDGI8nM2iYOO66WNdLKq6Zzhrswo6p1MBmkER5O/CO","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},["admin"]]
+2016-10-31T09:32:52.651Z - debug: Vorhandene Rolle: admin
+2016-10-31T09:32:52.651Z - debug: < IamService.userHasAnyRole(): result = true
+2016-10-31T09:32:52.651Z - debug: < IamService.hasAnyRole(): result = true
+2016-10-31T09:32:52.651Z - debug: < IamRequestHandler.hasRolle(): result = true
+2016-10-31T09:32:52.651Z - debug: > BuecherRequestHandler.deleteMeth(): args = <RequestResponse>
+2016-10-31T09:32:52.651Z - debug: id = 000000000000000000000005
+2016-10-31T09:32:52.652Z - debug: > BuecherService.remove(): args = ["000000000000000000000005"]
+2016-10-31T09:32:52.652Z - debug: < BuecherService.remove(): result = {}
+2016-10-31T09:32:52.652Z - debug: < BuecherRequestHandler.deleteMeth(): result = {}
+2016-10-31T09:32:52.652Z - debug: < IamRequestHandler.isAdmin(): result = void || undefined
+2016-10-31T09:32:52.652Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.652Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-31T09:32:52.652Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.655Z - debug: Response time: 6.680485 ms
+2016-10-31T09:32:52.658Z - debug: Geloescht: {"_id":"000000000000000000000005","titel":"Epsilon","rating":2,"art":"KINDLE","verlag":"HSKA_VERLAG","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2015-02-05T00:00:00.000Z","email":"epsilon@hska.de","__v":0,"autoren":[{"vorname":"Elfriede","nachname":"Epsilon"}],"schlagwoerter":["TYPESCRIPT"]}
+2016-10-31T09:32:52.661Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.661Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "connection": "close"
+}
+2016-10-31T09:32:52.661Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.661Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.662Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-31T09:32:52.662Z - debug: id = 000000000000000000000005
+2016-10-31T09:32:52.662Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.662Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.662Z - debug: Kein Header-Field Authorization
+2016-10-31T09:32:52.662Z - debug: AuthorizationInvalidError.constructor()
+2016-10-31T09:32:52.662Z - debug: 401: AuthorizationInvalidError, Kein Header-Field Authorization
+2016-10-31T09:32:52.662Z - debug: Response time: 1.539934 ms
+2016-10-31T09:32:52.663Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.663Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-31T09:32:52.663Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined
+2016-10-31T09:32:52.669Z - debug: > SharedRequestHandler.logRequestHeader(): args = <RequestResponse>
+2016-10-31T09:32:52.669Z - debug: Request: headers={
+  "host": "127.0.0.1:8443",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/2.2.0",
+  "authorization": "Bearer x",
+  "connection": "close"
+}
+2016-10-31T09:32:52.669Z - debug: Request: protocol="http"
+2016-10-31T09:32:52.669Z - debug: Request: hostname="127.0.0.1"
+2016-10-31T09:32:52.671Z - debug: > SharedRequestHandler.validateMongoId(): args = <RequestResponse>
+2016-10-31T09:32:52.671Z - debug: id = 000000000000000000000005
+2016-10-31T09:32:52.671Z - debug: > IamRequestHandler.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.671Z - debug: > IamService.validateJwt(): args = <RequestResponse>
+2016-10-31T09:32:52.671Z - debug: Authorization = Bearer x
+2016-10-31T09:32:52.672Z - debug: Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.672Z - debug: TokenInvalidError.constructor()
+2016-10-31T09:32:52.672Z - debug: 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen.
+2016-10-31T09:32:52.673Z - debug: Response time: 3.867015 ms
+2016-10-31T09:32:52.673Z - debug: < IamRequestHandler.validateJwt(): result = void || undefined
+2016-10-31T09:32:52.673Z - debug: < SharedRequestHandler.validateMongoId(): result = void || undefined
+2016-10-31T09:32:52.673Z - debug: < SharedRequestHandler.logRequestHeader(): result = void || undefined

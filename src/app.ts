@@ -28,7 +28,7 @@ import * as morgan from 'morgan';
 const responseTime: any = require('response-time');
 
 import kundenRouter from './kundenverwaltung/router/index';
-import filmeRouter from './videothek/router/index';
+import filmeRouter from './filmverwaltung/router/index';
 import buecherRouter from './buchverwaltung/router/index';
 import verlageRouter from './verlagverwaltung/router/index';
 import loginRouter from './iam/router/index';

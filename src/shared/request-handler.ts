@@ -50,7 +50,7 @@ class SharedRequestHandler {
 
         if (!isMongoId(id)) {
             logger.debug('status = 400');
-            res.status(400).send(`${id} ist keine gueltige Buch-ID`);
+            res.status(400).send(`${id} ist keine gueltige ID`);
         }
 
         next();
@@ -61,7 +61,7 @@ class SharedRequestHandler {
         void {
         if (!isUUID(id)) {
             logger.debug('status = 400');
-            res.status(400).send(`${id} ist keine gueltige Buch-ID`);
+            res.status(400).send(`${id} ist keine gueltige ID`);
             return;
         }
 
