@@ -64,7 +64,7 @@ chai.should();
 let token: string;
 
 // tslint:disable:no-unused-expression
-describe('videothek', function(): void {
+describe('filmverwaltung', function(): void {
     const path: string = PATHS.filme;
     const loginPath: string = PATHS.login;
 

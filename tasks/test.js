@@ -27,7 +27,7 @@ const mocha = (done) => {
     const reporter = 'spec';
     // const reporter = 'list';
     exec(`mocha -c --throw-deprecation --check-leaks ${inspect} -R ${reporter} dist\\buchverwaltung\\router\\index.spec.js`);
-    exec(`mocha -c --throw-deprecation --check-leaks ${inspect} -R ${reporter} dist\\videothek\\router\\index.spec.js`);
+    exec(`mocha -c --throw-deprecation --check-leaks ${inspect} -R ${reporter} dist\\filmverwaltung\\router\\index.spec.js`);
     exec(`mocha -c --throw-deprecation --check-leaks ${inspect} -R ${reporter} dist\\kundenverwaltung\\router\\index.spec.js`);
     gulplog.info('Die Log-Informationen sind in der Datei server.log');
     done();
