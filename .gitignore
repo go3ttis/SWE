@@ -14,3 +14,7 @@ doc
 # System Dateien
 .DS_Store
 Thumbs.db
+
+# Log-Dateien
+.gz
+.log
