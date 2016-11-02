@@ -1,0 +1,89 @@
+{
+    "_id": ObjectId("000000000000000000000001"),
+    "titel": "T-Shirt",
+    "rating": 4,
+    "art": "KLEIDUNG",
+    "hersteller": "ADIDAS",
+    "schlagwoerter": [
+        "GEIL"
+    ],
+    "preis": 25.0,
+    "rabatt": 0.011,
+    "lieferbar": true,
+    "datum": ISODate("2015-02-01T00:00:00.000Z"),
+    "email": "alpha@hska.de",
+    "haendler": [
+		{
+			"nachname": "Müller",
+			"vorname": "Alexander"
+		}
+	],
+    "__v": 0
+}
+{
+    "_id": ObjectId("000000000000000000000002"),
+    "titel": "BuchKsc",
+    "rating": 2,
+    "art": "DIGITAL",
+    "hersteller": "HSKA_VERLAG",
+    "schlagwoerter": [
+        "NICHTGEIL",
+        "GEIL"
+    ],
+    "preis": 10.0,
+    "rabatt": 0.022,
+    "lieferbar": true,
+    "datum": ISODate("2015-02-02T00:00:00.000Z"),
+    "email": "beta@web.de",
+    "haendler": [
+		{
+			"nachname": "Köhler",
+			"vorname": "Horst"
+		}
+	],
+    "__v": 0
+}
+{
+    "_id": ObjectId("000000000000000000000003"),
+    "titel": "BuchVfbistscheisse",
+    "rating": 2,
+    "art": "DIGITAL",
+    "hersteller": "HSKA_VERLAG",
+    "schlagwoerter": [
+        "GEIL"
+    ],
+    "preis": 22.2,
+    "rabatt": 0.022,
+    "lieferbar": true,
+    "datum": ISODate("2015-02-02T00:00:00.000Z"),
+    "email": "beta@web.de",
+    "haendler": [
+		{
+			"nachname": "Miller",
+			"vorname": "Mike"
+		}
+	],
+    "__v": 0
+}
+{
+    "_id": ObjectId("000000000000000000000004"),
+    "titel": "SchalKsc",
+    "rating": 2,
+    "art": "KLEIDUNG",
+    "hersteller": "ADIDAS",
+    "schlagwoerter": [
+        "GEIL"
+    ],
+    "preis": 22.2,
+    "rabatt": 0.022,
+    "lieferbar": true,
+    "datum": ISODate("2015-02-02T00:00:00.000Z"),
+    "email": "beta@gmx.de",
+    "haendler": [
+		{
+			"nachname": "Kovac",
+			"vorname": "Horst"
+		}
+	],
+    "__v": 0
+}
